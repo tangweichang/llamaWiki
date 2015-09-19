@@ -1,9 +1,4 @@
-/*
- * SooperFish 0.1
- * (c) 2010 Jurriaan Roelofs - SooperThemes.com
- * Inspired by Suckerfish, Superfish and Droppy
- * Licensed GPL: http://www.gnu.org/licenses/gpl.html
- */
+
 $.fn.sooperfish = function(op) {
 
   var sf = $.fn.sooperfish;

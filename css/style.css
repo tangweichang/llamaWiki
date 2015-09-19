@@ -335,7 +335,7 @@ footer a:hover {
   height: 33px;
   padding: 2px 0 3px 0;
   cursor: pointer; 
-  background: #ddd; /* Show a solid color for older browsers */
+  background: #ddd;
   background: -moz-linear-gradient(#fff, #ddd);
   background: -o-linear-gradient(#fff, #ddd);
   background: -webkit-linear-gradient(#fff, #ddd);
@@ -426,12 +426,6 @@ ul img {
 }
 
 
-/**
-Stylesheet for SooperFish by www.SooperThemes.com
-Author: Jurriaan Roelofs
-**/
-
-/* Configuration of menu width */
 html body ul.sf-menu ul,html body ul.sf-menu ul li { 
   width: 200px;
 }
@@ -440,7 +434,6 @@ html body ul.sf-menu ul ul {
   margin: 0 0 0 200px;
 }
 
-/* Framework for proper showing/hiding/positioning */
 ul.sf-menu,ul.sf-menu * { 
   margin: 0;
   padding: 0;
@@ -459,7 +452,7 @@ ul.sf-menu li {
 }
   
 ul.sf-menu li:hover { 
-  visibility: inherit; /* fixes IE7 'sticky bug' */ 
+  visibility: inherit;
 }
 
 ul.sf-menu a { 
@@ -476,11 +469,11 @@ ul.sf-menu ul {
 }
   
 ul.sf-menu ul a { 
-  zoom: 1; /* IE6/7 fix */ 
+  zoom: 1;
 }
 
 ul.sf-menu ul li { 
-  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  float: left;
   width: 150px;
 }
   
@@ -503,7 +496,7 @@ ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu
   left: -999999px;
 }
 
-/* autoArrows CSS */
+
 span.sf-arrow { 
   width: 7px;
   height: 7px;
@@ -512,7 +505,7 @@ span.sf-arrow {
   right: 5px;
   display: block;
   background: url(../images/arrows-white.png) no-repeat 0 0;
-  overflow: hidden; /* making sure IE6 doesn't overflow and expand the box */
+  overflow: hidden;
   font-size: 1px;
 }
 
@@ -522,7 +515,7 @@ ul ul span.sf-arrow {
   background-position: 0 100%;
 }
 
-/* Theming the menu */
+
 ul#nav { 
   float: left;
 }
@@ -557,7 +550,6 @@ ul#nav ul li a:hover {
 
 
 
-/* Image Transitions */
 ul#images {
   margin: 0 15px 10px 0;
   padding: 0;
